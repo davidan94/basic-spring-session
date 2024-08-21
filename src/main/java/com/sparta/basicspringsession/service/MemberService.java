@@ -1,5 +1,6 @@
 package com.sparta.basicspringsession.service;
 
+import com.sparta.basicspringsession.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -7,5 +8,5 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class MemberService {
 
-    private final Member
+    private final MemberRepository memberRepository;
 }
