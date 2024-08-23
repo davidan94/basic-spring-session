@@ -3,7 +3,7 @@ package com.sparta.basicspringsession.dto;
 import lombok.Getter;
 
 @Getter
-public class MemberServiceRequestDto {
+public class MemberSaveRequestDto {
 
     private String name;
 }
